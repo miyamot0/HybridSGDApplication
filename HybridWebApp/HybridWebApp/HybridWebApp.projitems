@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>119f1ebc-fe63-479e-8192-41a888eb19b7</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>HybridWebApp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PopUpWindow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HybridWebView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PopUpWindowInterface.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SaveAndLoadInterface.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SGDBoard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)SQLiteInterface.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextToSpeechInterface.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SGDBoard.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

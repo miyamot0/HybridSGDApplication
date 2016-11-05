@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HybridWebApp;assembly=HybridWebApp"
+             Padding="0,0,0,0"
+             x:Class="HybridWebApp.SGDBoard">
+  <ContentPage.Content>
+    <local:HybridWebView x:Name="hybridWebView" Uri="index.html"
+      HorizontalOptions="Fill" VerticalOptions="Fill" />
+  </ContentPage.Content>
+</ContentPage>
