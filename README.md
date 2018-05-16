@@ -13,7 +13,6 @@ Features include:
 ### Changelog
  * 1.0.0.0 - Initial and only push
 
-
 ### Referenced Works (Packages)
 Hybrid SGD Application uses a number of open source projects to work properly:
 * Newtonsoft.Json - MIT Licensed. Copyright (c) 2007 James Newton-King 
