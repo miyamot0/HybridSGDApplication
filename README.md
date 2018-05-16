@@ -39,4 +39,4 @@ None
 
 ### License
 ----
-Hybrid SGD Application - Copyright July 1, 2016 Shawn Gilroy, Shawn P. Gilroy. GPL-Version 3
+Hybrid SGD Application - Copyright July 1, 2016 Shawn Gilroy, Shawn P. Gilroy. MPL-Version 2.0
